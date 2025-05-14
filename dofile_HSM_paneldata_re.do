@@ -1,3 +1,5 @@
+use "https://github.com/apaparini/HumSecMeasures/blob/main/PRIF-dataset-HMI-intervention-years-v-July-2019_raw.dta", clea
+
 **Preparing and adjusting the database to our analysis** 
 recode ENDTYPE (1=3) (3=1)
 recode NEWVIOL (-88 = 2)
